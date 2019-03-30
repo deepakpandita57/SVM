@@ -1,4 +1,4 @@
-# Implement SGD for SVM for the adult income dataset. Experiment with performance as a function of the capacity parameter C.
+# Implement Stochastic Gradient Descent (SGD) for Support Vector Machine (SVM) for the adult income dataset.
 
 
 Task
@@ -14,13 +14,15 @@ http://archive.ics.uci.edu/ml/datasets/Adult
 preprocessed version from: 
 http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html
 
+Also, experiment with performance as a function of the capacity parameter C.
+
 
 Files
 =============================================================================================================
 "SVM.py" contains the code for SVM
 "plot.py" contains the code to plot the accuracies on test and dev data while varying Capacity
 "plot.png" contains the plot. There are 40 points in the plot from 10^-3 to 10^4, each c is 1.5 times of the previous one
-"README"
+"README.md"
 
 
 Algorithm
