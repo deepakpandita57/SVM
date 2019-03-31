@@ -51,3 +51,8 @@ Interpretation
 While keeping epochs constant at 5 and increasing the capacity from 10^-3 to 10^4, the accuracy on test set first increases in the range (10^-3 to <10^-1).
 After 10^-1 it starts dropping and then it starts fluctuating(near 10^1). This shows that the capacity is important and 
 it provides the best performance in the range 10^-2 to 10^-1 on this dataset.  
+
+
+References
+=============================================================================================================
+This was done as a homework problem in the Machine Learning class (CSC 446, Spring 2018) by Prof. Daniel Gildea (https://www.cs.rochester.edu/~gildea/) at the University of Rochester, New York.
